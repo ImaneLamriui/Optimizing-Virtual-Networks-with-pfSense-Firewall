@@ -25,7 +25,7 @@ https://www.pfsense.org/getting-started/
 ###### Management Network → 18
 ###### VoIP → 30
 
-####  First, we need to Creat and configure an Ethernet3 network interface for pfSense in a virtualized environment. And configure it in host-only mode, with the VirtualBox network set to NAT and the host network set to bridge mode. The combination of Host-Only, NAT, and Bridge network modes offers flexibility in configuring the virtual environment to meet various development, testing, or production requirements.
+####  First, we need to Creat and configure an Ethernet network interface for pfSense in a virtualized environment. And configure it in host-only mode, with the VirtualBox network set to NAT and the host network set to bridge mode. The combination of Host-Only, NAT, and Bridge network modes offers flexibility in configuring the virtual environment to meet various development, testing, or production requirements.
 #### PfSense is used in a wide variety of environments to provide advanced security and networking functionalities. Some common environments and use cases for pfSense include:
 
 __Small and medium-sized enterprises__: pfSense is widely used in small and medium-sized enterprise environments to protect internal networks, implement security policies, and manage network traffic.
@@ -39,11 +39,6 @@ __Home and SOHO networks__: pfSense is a popular choice for home users and small
 __Virtualization environments__: In virtualization environments, pfSense is deployed as a virtual machine to provide firewall and routing services to other virtual machines on the same hypervisor.
 
 __Testing and development labs__: IT professionals and technology enthusiasts use pfSense in lab environments to conduct tests, experiments, and development of network solutions.
-
-
-
-
-
 
 <p align="center">
 <img src="Ethernet3-network-card-created-and -configured.png"  width="500">
