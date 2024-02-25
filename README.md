@@ -3,6 +3,7 @@
 ### 2.7.2-_RELEASE_
 #### The pfSense project is a free network firewall distribution, based on the FreeBSD operating system with a custom kernel and including third party free software packages for additional functionality. 
 https://www.pfsense.org/getting-started/
+#### The combination of Host-Only, NAT, and Bridge network modes provides flexibility in configuring the virtual environment to meet various development, testing, or production needs.
 
 <p align="center">
 <img src="freebsd.png" width="250">
