@@ -9,6 +9,27 @@ https://www.pfsense.org/getting-started/
 <img src="freebsd.png" width="250">
 </p>
 
+#### Objective: Optimize and maximize the security of a company's IT network.
+#### the starting point is a Class C network, in which all departments will have IP addresses from that network without any kind of grouping, and the network devices such as switches have a flat configuration without VLANs, although they support such functionality. Internet connection is provided through a router configured in bridge mode(in this practice the host network), and a pfSense firewall that handles all necessary network services (DNS, DHCP, etc.).
+
+#### To conduct tests, Cisco-Packet-Tracer-Software has been used.
+<p align="center">
+<img src="Cisco_practice.png" width="500">
+
+#### For example, a company conducted a departmental classification and obtained the following list that we must use when creating our groupings using VLANs. Fragment the network type C into networks for each department:
+
+#### Departments and Number of Hosts:
+
+__Sales → 5__
+__Administrative → 6__
+__R&D → 12__
+__Development → 28__
+__Wifi_Corp → 60__
+__Wifi_Inv → 25__
+__DMZ → 28__
+__Management Network → 18__
+__VoIP → 30__
+
 ####  Creating and configuring an Ethernet3 network interface for pfSense in a virtualized environment. Additionally, it has been configured in host-only mode, with the VirtualBox network set to NAT and the host network set to bridge mode. The combination of Host-Only, NAT, and Bridge network modes offers flexibility in configuring the virtual environment to meet various development, testing, or production requirements.
 #### PfSense is used in a wide variety of environments to provide advanced security and networking functionalities. Some common environments and use cases for pfSense include:
 
